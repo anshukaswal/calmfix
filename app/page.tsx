@@ -44,7 +44,6 @@ export default function CalmFixApp() {
   const handleBookingConfirm = (booking: any) => {
     setCurrentBooking(booking)
     setShowQuickBooking(false)
-    // In a real app, navigate to booking tracking page
     console.log("Booking confirmed:", booking)
   }
 
